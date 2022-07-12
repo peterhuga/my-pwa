@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Lab4 App</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Lab1 PWA of Mine" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+  <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#43add4" />
+  <meta name="theme-color" content="#008080" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <img src="./images/images.png" alt="My Logo" />
+      </div>
+      <h1>My PWA Lab 4</h1>
+    </header>
+    <main>
+      <div class="notification-container">
+        <h2>Notifications</h2>
+        <button id="send-button">Send Notifications</button>
+        <div id="output-container">
+          
+        </div>
+
+        <div id="input-container">
+          <label for="title">Title:</label> <br />
+          <input id="title" type="text" maxlength="100" /><br>
+
+          <label for="body">Body</label> <br />
+          <input id="body" type="text" maxlength="100" />
+          <button id="show-button">Show</button>
+        </div>
+        
+
+
+
+
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; 2022 Jianwei Wang</p>
+  </footer>
+
+  <!-- <script src="js/song-db.js" ></script> -->
+  <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
